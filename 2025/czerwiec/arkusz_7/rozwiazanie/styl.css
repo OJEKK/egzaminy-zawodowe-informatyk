@@ -1,0 +1,61 @@
+* {
+	font-family: "Comic Sans MS", sans-serif;
+	text-align: center;
+}
+
+nav,
+footer {
+	background-color: #00838f;
+	color: #b2dfdb;
+	padding: 10px;
+}
+
+aside,
+section {
+	float: left;
+	width: 50%;
+	height: 600px;
+	overflow: auto;
+}
+
+footer {
+	clear: both;
+}
+
+aside {
+	background-color: #b2dfdb;
+}
+
+.wycieczka {
+	background-color: #00838f;
+	opacity: 0.7;
+	height: 150px;
+	margin: 10px 100px;
+	border-radius: 30px;
+}
+
+.wycieczka:hover {
+	opacity: 1;
+}
+
+img {
+	float: right;
+	border-radius: 30px;
+	margin: 7px;
+}
+
+li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+a {
+	color: #b2dfdb;
+	text-decoration: none;
+	margin-left: 50px;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}

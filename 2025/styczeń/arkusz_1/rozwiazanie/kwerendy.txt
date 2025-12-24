@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT kolor, material FROM produkt WHERE wysokosc_buta > 10;
+Zapytanie 2: SELECT nazwa, cena, nazwa_kat FROM buty INNER JOIN kategorie ON kategorie.id_kat = buty.id_kat;
+Zapytanie 3: CREATE USER 'Marek'@'localhost' IDENTIFIED BY 'M@rek';
+Zapytanie 4: GRANT SELECT, UPDATE ON obuwie.produkt TO 'Marek'@'localhost';

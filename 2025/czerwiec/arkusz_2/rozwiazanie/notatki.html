@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planer zadań</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+
+<body>
+    <aside>
+        <img src="obraz.jpg" alt="notatki">
+    </aside>
+    <header>
+        <h2>Moje zadania</h2>
+    </header>
+    <nav>
+        <input type="text" id="zadanie" placeholder="Dodaj zadanie...">
+        <button onclick="dodaj()">Dodaj</button>
+    </nav>
+    <main>
+        <ul id="lista">
+            <li>
+                <span>Wyprowadzić psa</span>
+                <button onclick="wykonane(this)">Wykonane</button>
+            </li>
+            <li>
+                <span>Gimnastyka</span>
+                <button onclick="wykonane(this)">Wykonane</button>
+            </li>
+            <li>
+                <span>Zakupy</span>
+                <button onclick="wykonane(this)">Wykonane</button>
+            </li>
+            <li>
+                <span>Spacer z kumplem</span>
+                <button onclick="wykonane(this)">Wykonane</button>
+            </li>
+            <li>
+                <span>Odrabianie lekcji z młodszą siostrą</span>
+                <button onclick="wykonane(this)">Wykonane</button>
+            </li>
+            <li>
+                <span>Projekt na geografię</span>
+                <button onclick="wykonane(this)">Wykonane</button>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <h3>Notatki: 0123456789</h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

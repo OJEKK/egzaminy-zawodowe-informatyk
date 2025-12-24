@@ -1,0 +1,63 @@
+* {
+	font-family: "Garamond";
+	color: white;
+}
+
+header {
+	background-color: indigo;
+	text-align: center;
+	padding: 2px;
+}
+
+nav.lewo,
+aside.prawo {
+	background-color: indigo;
+	height: 600px;
+}
+
+section.srodek {
+	background-color: black;
+	height: 600px;
+	overflow: scroll;
+}
+
+@media screen and (min-width: 800px) {
+	nav.lewo,
+	aside.prawo {
+		width: 20%;
+		float: left;
+	}
+	section.srodek {
+		width: 60%;
+		float: left;
+	}
+	footer {
+		clear: both;
+	}
+}
+
+footer {
+	background-color: indigo;
+	height: 150px;
+}
+
+.punkty {
+	background-color: tomato;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+ul li {
+	padding: 5px;
+}
+
+section.srodek .blok {
+	float: left;
+	text-align: center;
+	padding: 3px;
+}
+
+input {
+	margin: 10px;
+	color: indigo;
+}

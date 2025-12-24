@@ -1,0 +1,50 @@
+body {
+	font-family: "Century Gothic", sans-serif;
+	text-align: center;
+	background-color: #fce4ec;
+}
+
+header,
+footer {
+	background-color: #880e4f;
+	color: white;
+	padding: 10px;
+	letter-spacing: 20px;
+}
+
+section.lewa {
+	float: left;
+	width: 50%;
+	height: 600px;
+	overflow: auto;
+}
+
+section.prawa {
+	float: left;
+	background-color: #880e4f;
+	color: white;
+	width: 40%;
+	height: 500px;
+	margin: 35px;
+	box-shadow: 10px 10px 15px dimgray;
+}
+
+footer {
+	clear: both;
+}
+
+table {
+	margin: auto;
+	width: 70%;
+}
+
+input,
+select,
+button {
+	margin: 5px;
+	width: 70%;
+}
+
+table tr:hover {
+	background-color: #f8bbd0;
+}

@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT * FROM opony ORDER BY cena ASC LIMIT 10;
+Zapytanie 2: SELECT producent, model, sezon, cena FROM opony WHERE nr_kat = 9;
+Zapytanie 3: SELECT id_zam, ilosc, model, cena FROM zamowienie INNER JOIN opony ON opony.nr_kat = zamowienie.nr_kat ORDER BY RAND() LIMIT 1;
+Zapytanie 4: UPDATE opony SET cena = cena * 0.75 WHERE sezon = "letnia";

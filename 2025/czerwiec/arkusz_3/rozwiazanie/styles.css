@@ -1,0 +1,64 @@
+* {
+	font-family: "Roboto", Arial, sans-serif;
+	text-align: center;
+}
+
+body {
+	background-color: lightcyan;
+}
+
+header,
+footer {
+	background-color: steelblue;
+	color: white;
+	padding: 10px;
+}
+
+article {
+	padding-top: 40px;
+	margin: 1%;
+}
+
+@media (min-width: 800px) {
+	article {
+		float: left;
+		width: 30%;
+	}
+	footer {
+		clear: both;
+	}
+}
+@media (max-width: 799px) {
+	article {
+		width: 98%;
+	}
+}
+
+article:nth-child(1) {
+	background-color: dodgerblue;
+}
+article:nth-child(2) {
+	background-color: limegreen;
+}
+article:nth-child(3) {
+	background-color: darkorchid;
+}
+
+article img {
+	width: 70%;
+}
+
+article p {
+	padding: 20px;
+}
+
+table {
+	margin: 0 auto;
+	width: 70%;
+	border: 1px solid steelblue;
+}
+
+table tr:hover {
+	background-color: steelblue;
+	color: white;
+}

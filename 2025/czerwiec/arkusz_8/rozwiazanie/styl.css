@@ -1,0 +1,63 @@
+* {
+	text-align: center;
+	font-family: "Georgia";
+}
+
+header,
+footer {
+	background-color: tomato;
+	color: mistyrose;
+	padding: 10px;
+}
+
+nav {
+	float: left;
+	width: 20%;
+}
+
+div {
+	background-color: #ffaea5;
+	height: 170px;
+	font-size: 200%;
+}
+
+#blok1 {
+	background-color: mistyrose;
+}
+
+main {
+	float: left;
+	background-color: mistyrose;
+	width: 80%;
+	height: 510px;
+	overflow: auto;
+}
+
+footer {
+	clear: both;
+}
+
+#sekcja2,
+#sekcja3 {
+	display: none;
+}
+
+table {
+	margin: auto;
+	width: 60%;
+	border: 1px dashed indigo;
+}
+
+select,
+button {
+	margin: 20px;
+}
+
+dt {
+	font-weight: bold;
+	font-style: italic;
+}
+
+dt:hover {
+	font-size: 180%;
+}
